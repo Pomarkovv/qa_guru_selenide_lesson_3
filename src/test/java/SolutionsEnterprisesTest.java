@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Selenide.*;
 public class SolutionsEnterprisesTest {
 
     @Test
-    void openEnterprisesFromSolutionsSuccessfully() {
+    void openEnterprisesFromSolutionsSuccessfullyTest() {
         open("https://github.com/");
 
         $(byText("Solutions")).hover();
