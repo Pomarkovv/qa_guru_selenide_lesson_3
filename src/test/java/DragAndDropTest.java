@@ -10,7 +10,7 @@ public class DragAndDropTest {
     private static final SelenideElement boxB = $("#column-b");
 
     @Test
-    void dragAndDropMethodSuccessfully() {
+    void dragAndDropMethodSuccessfullyTest() {
         open("https://the-internet.herokuapp.com/drag_and_drop");
 
         boxA.dragAndDropTo($("#column-b"));
@@ -20,7 +20,7 @@ public class DragAndDropTest {
     }
 
     @Test
-    void actionsMethodSuccessfully() {
+    void actionsMethodSuccessfullyTest() {
         open("https://the-internet.herokuapp.com/drag_and_drop");
 
         actions().moveToElement(boxA)
